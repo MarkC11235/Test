@@ -12,3 +12,5 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+print(primes(100))
